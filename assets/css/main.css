@@ -1,0 +1,36 @@
+
+/*
+ black #011627
+ white #FDFFFC
+ blue  #2EC4B6
+ red   #E71D36
+ yelllow #FF9F1C
+
+*/
+td{
+    border: solid 1px;
+}
+body{
+   background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+
+}
+.container{
+    background-color: #FDFFFC;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+}
+h1{
+    padding-top: 36px;
+}
+table{
+    padding-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
