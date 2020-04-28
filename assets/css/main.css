@@ -7,30 +7,100 @@
  yelllow #FF9F1C
 
 */
-td{
-    border: solid 1px;
+table{
+    width: 100%;
+    margin-top: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-spacing: 0px;
+      margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
-body{
-   background: #2C3E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+table tr:nth-child(even){
+    background-color: #2EC4B6;
+}
+
+.fa-star{
+    color: #FF9F1C;
 
 }
-.container{
-    background-color: #FDFFFC;
-    width: 700px;
-    height: 500px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 16px;
+
+td,th{
+    padding: 1em;
+    text-align: left;
 }
+
+.content{
+    background-color: #FDFFFC;
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    justify-content: center;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.container{
+    background: #1a2a6c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.MainTitle{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
     padding-top: 36px;
 }
-table{
-    padding-top: 8px;
-    margin-left: auto;
-    margin-right: auto;
-
+h2{
+    padding-top: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+a{
+    text-decoration: none;
+    color:blue;
+}
+
+address{
+    padding-left: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+p{
+    padding-left: 36px;
+    padding-right: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.retornar{
+    color: #011627;
+    height: 300px;
+}
+
